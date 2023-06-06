@@ -2,11 +2,29 @@ import React from "react";
 import Project from "./Project";
 import Experience from "./Experience";
 import Education from "./Education";
-import projectData from "./ProjectData";
-import experienceData from "./ExperienceData";
-import educationData from "./EducationData";
+import Overview from "./Overview";
+import ProjectData from "./ProjectData";
+import ExperienceData from "./ExperienceData";
+import EducationData from "./EducationData";
+import OverviewData from "./OverviewData";
 
 const Resume = () => {
+  const keywords = [
+    "HTML",
+    "CSS",
+    "React",
+    "JavaScript",
+    "AJAX",
+    "Python",
+    "PostgreSQL",
+    "GIT",
+    "Node",
+    "Express",
+    "jQuery",
+    "Flask",
+    "JSON",
+    "leadership",
+  ];
   return (
     <div
       style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
@@ -24,20 +42,13 @@ const Resume = () => {
 
       <div style={{ textAlign: "left", width: "70%" }}>
         <h2>OVERVIEW</h2>
-        <ul>
-          {/* Other overview points */}
-          <li>
-            2+ years in front end programming using HTML, CSS, React,
-            JavaScript, and AJAX.
-          </li>
-          {/* ... */}
-        </ul>
+        <Overview points={OverviewData} keywords={keywords} />
       </div>
 
       {/************** Project section *****************/}
       <div style={{ textAlign: "left", width: "70%" }}>
         <h2>PROJECTS</h2>
-        {projectData.map((project, index) => (
+        {ProjectData.map((project, index) => (
           <Project
             key={index}
             title={project.title}
@@ -51,7 +62,7 @@ const Resume = () => {
       {/* Education section */}
       <div style={{ textAlign: "left", width: "70%" }}>
         <h2>EDUCATION</h2>
-        {educationData.map((education, index) => (
+        {EducationData.map((education, index) => (
           <Education key={index} {...education} />
         ))}
       </div>
@@ -59,7 +70,7 @@ const Resume = () => {
       {/* Experience section */}
       <div style={{ textAlign: "left", width: "70%" }}>
         <h2>EXPERIENCE</h2>
-        {experienceData.map((experience, index) => (
+        {ExperienceData.map((experience, index) => (
           <Experience key={index} {...experience} />
         ))}
       </div>

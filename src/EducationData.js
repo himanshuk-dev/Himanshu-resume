@@ -1,4 +1,4 @@
-const educationData = [
+const EducationData = [
   {
     institution: "Springboard",
     program: "Software Engineering Career Track",
@@ -17,4 +17,4 @@ const educationData = [
   },
 ];
 
-export default educationData;
+export default EducationData;

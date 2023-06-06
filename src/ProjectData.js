@@ -1,5 +1,5 @@
 // Project array
-const projectData = [
+const ProjectData = [
   {
     title: "Remplr | Meal Planner App",
     year: "2023",
@@ -41,4 +41,4 @@ const projectData = [
   },
 ];
 
-export default projectData;
+export default ProjectData;

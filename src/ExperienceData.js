@@ -1,5 +1,5 @@
 //   Experience array
-const experienceData = [
+const ExperienceData = [
   {
     role: "Team Lead Operations",
     year: "2021 – 2022",
@@ -52,4 +52,4 @@ const experienceData = [
   },
 ];
 
-export default experienceData;
+export default ExperienceData;
