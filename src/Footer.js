@@ -7,6 +7,8 @@ const Footer = () => {
         textAlign: "center",
         padding: "10px",
         backgroundColor: "#F8C630",
+        color: "#2E2C2F",
+        fontWeight: "bold",
       }}
     >
       &copy; {new Date().getFullYear()} Developed using React with{" "}
