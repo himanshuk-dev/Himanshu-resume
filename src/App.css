@@ -6,8 +6,9 @@ body,
   background-color: #f1f9f6;
 }
 
+h1,
 h2 {
-  color: #223e44;
+  color: #30565f;
 }
 
 .App {
