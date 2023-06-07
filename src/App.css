@@ -25,3 +25,14 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
+/* CSS media query for screens smaller than 768px (typical breakpoint for tablets and smartphones) */
+@media (max-width: 768px) {
+  .Header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    font-size: 13px;
+  }
+}

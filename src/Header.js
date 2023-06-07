@@ -7,7 +7,7 @@ const Header = () => {
         <h1>HIMANSHU KUMAR</h1>
         <div>
           <p>himanshuk.kumar01@gmail.com</p>
-          <p style={{ textAlign: "right" }}>+1 (604) 725-9950</p>
+          <p>+1 (604) 725-9950</p>
         </div>
       </div>
       <hr
