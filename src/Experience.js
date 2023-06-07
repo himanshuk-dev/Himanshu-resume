@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = ({ role, year, company, location, descriptions }) => {
   return (
-    <div style={{ marginTop: "20px" }}>
+    <div style={{ marginRight: "0%" }}>
       <div
         style={{
           display: "flex",

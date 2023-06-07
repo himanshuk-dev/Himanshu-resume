@@ -1,3 +1,26 @@
+html,
+body,
+.App,
+#root {
+  height: 100%;
+  background-color: #f1f9f6;
+}
+
+h2 {
+  color: #223e44;
+}
+
 .App {
   text-align: center;
+}
+
+.Header {
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 2%;
+}
+
+.Header-top {
+  display: flex;
+  justify-content: space-between;
 }
