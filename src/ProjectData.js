@@ -2,7 +2,7 @@
 const ProjectData = [
   {
     title: "Remplr | Meal Planner App",
-    year: "2023",
+    year: "February 2023 - May 2023",
     url: "https://remplr.com/",
     descriptions: [
       "Developed a scalable full-stack web application using JavaScript, Python, Flask, PostgreSQL, and SQLAlchemy.",
@@ -12,7 +12,7 @@ const ProjectData = [
   },
   {
     title: "Currency Convertor",
-    year: "2023",
+    year: "January 2023 - January 2023",
     url: "https://currencyexchange.herokuapp.com/",
     descriptions: [
       "Developed and deployed a Flask-based currency conversion app using RESTful APIs and Python.",
@@ -22,7 +22,7 @@ const ProjectData = [
   },
   {
     title: "Meme Generator",
-    year: "2022",
+    year: "December 2022 - December 2022",
     url: "https://meme-generator1.surge.sh/",
     descriptions: [
       "Engineered a meme generator that takes user inputs and generates a customized meme in under 10 seconds using Javascript.",
@@ -32,7 +32,7 @@ const ProjectData = [
   },
   {
     title: "Jeopardy Game",
-    year: "2022",
+    year: "November 2022 - November 2022",
     url: "https://jeopardy-game1.surge.sh/",
     descriptions: [
       "Implemented an interactive Jeopardy game with six categories and five questions per category using Javascript, jQuery, Axios, and Lodash.",

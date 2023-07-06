@@ -2,7 +2,7 @@
 const ExperienceData = [
   {
     role: "Team Lead Operations",
-    year: "2021 – 2022",
+    year: "March 2021 – November 2022",
     company: "CONCENTRIX",
     location: "Vancouver, Canada",
     descriptions: [
@@ -12,7 +12,7 @@ const ExperienceData = [
   },
   {
     role: "Team Lead",
-    year: "2018",
+    year: "March 2018 - November 2018",
     company: "ETHICALHAT CYBER SECURITY PVT. LTD.",
     location: "India",
     descriptions: [
@@ -22,7 +22,7 @@ const ExperienceData = [
   },
   {
     role: "Senior Associate System Administration, Team Lead",
-    year: "2016 – 2018",
+    year: "February 2016 - February 2018",
     company: "NTT DATA GDS PVT. LTD.",
     location: "India",
     descriptions: [
@@ -32,7 +32,7 @@ const ExperienceData = [
   },
   {
     role: "Process Associate",
-    year: "2014 – 2016",
+    year: "June 2014 – February 2016",
     company: "GENPACT LLC.",
     location: "India",
     descriptions: [
@@ -42,7 +42,7 @@ const ExperienceData = [
   },
   {
     role: "Associate System Engineer",
-    year: "2013 – 2014",
+    year: "January 2013 – May 2014",
     company: "PROVAL TECHNOLOGIES PVT. LTD.",
     location: "India",
     descriptions: [
